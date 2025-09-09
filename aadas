@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>przystań morska</title>
+    <style>
+        table, td{
+                border: 1px solid black;
+        }
+    </style>    
+</head>
+<body>
+    <h6>przystań morska</h6>
+    <h2>Formuarz</h2>
+
+    <form action="plik.php" method="post">
+        <h2>oddaj swojego kota XD</h2>
+            <label for="email">
+                <p>email</p>
+
+            </label>
+            
+            <label for="rasa1">
+                <p>rasa1</p>
+            </label>
+
+            <label for="rasa2">
+                <p>rasa2</p>
+            </label>
+        
+            <label for="rasa3">
+                <p>rasa3</p>
+            </label>
+
+
+
+            <label for="wiek">
+                <p>zaznacz pole wiek!</p>
+            </label>
+
+            <label for="imie">
+                <p>imie kota</p>
+                <input type="text" name="imie" id="imie">
+            </label>
+
+        <input type="text" name="imie">
+        <input type="number" name="wiek" id="wiek">
+        <select> name="plecy">
+
+            <option value="k">Kotka</option>
+            <option value ="m">Kot</option>
+        </select>
+        <input type="radio" value="kot 1" name="rasa1" id="rasa1">
+        <input type="radio" value="kot 2" name="rasa2" id="rasa2">
+        <input type="radio" value="kot 3" name="rasa3" id="rasa3">
+        
+    <input type="number" name="waga">
+        <input type="email" name="email" id="email">
+
+
+
+
+        <button>Wyślij</button>
+
+    </form>
+
+</body>
+</html>
